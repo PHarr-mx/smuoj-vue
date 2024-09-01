@@ -739,7 +739,7 @@
                     <span v-if="submitting">{{ $t('m.Submitting') }}</span>
                     <span v-else>{{ $t('m.Submit') }}</span>
                   </el-button>
-                  <el-tag
+                  <!-- <el-tag
                     type="success"
                     :class="openTestCaseDrawer?'tj-btn active':'tj-btn non-active'"
                     @click.native="openTestJudgeDrawer"
@@ -767,7 +767,7 @@
                     <span style="vertical-align: middle;">
                       {{ $t('m.Online_Test') }}
                     </span>
-                  </el-tag>
+                  </el-tag> -->
                 </el-col>
               </el-row>
             </div>
