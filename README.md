@@ -45,4 +45,4 @@ npm run serve
  INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
 ```
 
-看到以上提示说明打包成功，把`dist`直接上传到服务去的`~/sumoj/`目录下，并重新执行`doceker compse up -d` 即可
+看到以上提示说明打包成功，把`dist`直接上传到服务器的`~/sumoj/`目录下，并重新执行`doceker compse up -d` 即可
