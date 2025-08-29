@@ -3,6 +3,12 @@
 
 ## 日志
 
+2025.08.30
+
+- 更换前端cdn 为 webstatic
+- 修复 readme 的一些错误
+
+
 2024.09.1 
 
 - 修复了修改密码页面的滑块验证码，将图片修改为本地图片
@@ -27,7 +33,7 @@ npm config set registry https://registry.npmmirror.com/
 npm config get registry
 ```
 
-找到`vue.config.js`，根据72、73行的注释进行调整
+找到`vue.config.js`，根据93、94行的注释进行调整
 
 然后在`/hoj-vue`目录下执行
 
@@ -45,4 +51,4 @@ npm run serve
  INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
 ```
 
-看到以上提示说明打包成功，把`dist`直接上传到服务器的`~/sumoj/`目录下，并重新执行`doceker compse up -d` 即可
+看到以上提示说明打包成功，把`dist`直接上传到服务器的`~/sumoj-vue/`目录下，并重新执行`docker compose up -d` 即可
